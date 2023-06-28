@@ -13,6 +13,7 @@ Clone the Repo
 Run 'mvn clean install' to create the jar file in 'target' folder
 Run 'java -jar [jar-file-location]' to run the application on port 8080
 ```
+Java Version : openjdk17
 
 Setting Up Database:
 ```
