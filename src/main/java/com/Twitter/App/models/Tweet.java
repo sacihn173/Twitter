@@ -67,4 +67,10 @@ public class Tweet {
         return userId;
     }
 
+    @PostLoad
+    public void postLoad() {
+        if(user != null)
+            userId = user.getUserId();
+    }
+
 }
